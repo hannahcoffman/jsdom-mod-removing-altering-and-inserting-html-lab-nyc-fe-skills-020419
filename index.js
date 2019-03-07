@@ -5,5 +5,5 @@ myMain.remove()
 /* Create your new element here and assign it to newHeader */
 let newHeader = document.createElement('h1')
 newHeader.id = "victory"
-newHeader.innerHTML = "Hannah is the champion!"
+newHeader.innerText = "Hannah is the champion!"
 document.body.appendChild(newHeader)
